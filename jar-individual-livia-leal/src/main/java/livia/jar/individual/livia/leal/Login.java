@@ -143,8 +143,8 @@ public class Login extends javax.swing.JFrame {
         String email =  String.valueOf(txtEmail.getText());
         String senha = String.valueOf(txtSenha.getText());
 
-        List<Usuario> usuariosAzure = con.query("select * from usuario where email = ? and senha = ?", new BeanPropertyRowMapper(Usuario.class), email, senha);
-        List<Usuario> usuariosMySql = conMySql.query("select * from usuario where email = ? and senha = ?", new BeanPropertyRowMapper(Usuario.class), email, senha);
+        List<Usuario> usuariosAzure = con.query("select * from usuario where email = '?' and senha = '?'", new BeanPropertyRowMapper(Usuario.class), email, senha);
+        List<Usuario> usuariosMySql = conMySql.query("select * from usuario where email = '?' and senha = '?'", new BeanPropertyRowMapper(Usuario.class), email, senha);
 
         System.out.println(usuariosAzure);
         if(usuariosAzure.size()>0){
