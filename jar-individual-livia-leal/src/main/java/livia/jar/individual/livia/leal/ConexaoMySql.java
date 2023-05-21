@@ -19,7 +19,7 @@ public class ConexaoMySql {
 
         dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
 
-        dataSource.setUrl("jdbc:mysql://18.212.25.166:3306/jarIndividual");
+        dataSource.setUrl("jdbc:mysql://0.0.0.0:3306/jarIndividual");
 
         dataSource.setUsername("root");
 

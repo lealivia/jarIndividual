@@ -53,7 +53,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>livia.jar.individual.livia.leal</mainClass> 
+                            <mainClass>livia.jar.individual.livia.leal.Login</mainClass> 
                         </manifest>
                     </archive>
                 </configuration>
