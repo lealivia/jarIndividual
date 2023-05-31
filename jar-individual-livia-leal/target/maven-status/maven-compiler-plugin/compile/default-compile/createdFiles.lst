@@ -1,3 +1,13 @@
-JdbcCommands\Registro.class
-livia\jar\individual\livia\leal\ConexaoMySql.class
+JdbcCommands\InsertMaquina.class
+JdbcCommands\SelectUser.class
+livia\jar\individual\livia\leal\ConexaoAzure.class
+Entidades\Usuario.class
 Suporte\SlackAlert.class
+CapturaDados\Login.class
+JdbcCommands\Registro.class
+JdbcCommands\InsertRegistro.class
+livia\jar\individual\livia\leal\ConexaoMySql.class
+CapturaDados\Registro.class
+Conexao\Conexao.class
+JdbcCommands\InsertRegistro$1.class
+Conexao\ConexaoDocker.class
