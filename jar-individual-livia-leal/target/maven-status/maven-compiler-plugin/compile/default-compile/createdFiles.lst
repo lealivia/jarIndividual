@@ -1,7 +1,3 @@
-livia\jar\individual\livia\leal\Login$1.class
+JdbcCommands\Registro.class
 livia\jar\individual\livia\leal\ConexaoMySql.class
-livia\jar\individual\livia\leal\ConexaoAzure.class
-livia\jar\individual\livia\leal\Login$2.class
-livia\jar\individual\livia\leal\Usuario.class
-livia\jar\individual\livia\leal\Login$3.class
-livia\jar\individual\livia\leal\Login.class
+Suporte\SlackAlert.class
